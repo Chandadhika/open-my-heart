@@ -6,7 +6,7 @@ document.querySelector('#submit').addEventListener('click', (heart) => {
     var inputValue = document.querySelector('#heartInput').value;
 
     // Define the valid options
-    var validOptions = ["1500", "528", "143", "Love", "180", "9", "99", "Ko", "ko", "koko", "I Love You", "I love you", "love", "baby", "Baby", 
+    var validOptions = ["1500", "528", "143", "Love", "180", "9", "99", "Ko", "ko", "koko", "iloveyou", "ILoveYou", "I Love You", "I love you", "love", "baby", "Baby", 
         "၁၅၀၀", "၅၂၈", "၁၄၃", "၁၈၀", "၉", "၉၉", "ကို", "ကိုကို", "မောင်", "မောင်လေး", "ဦး", "ဦးဦး", "ချစ်", "ချစ်ချစ်", "ချစ်လေး", "မင်းကို ချစ်တယ်", "မင်းကိုချစ်တယ်", "ချစ်တယ်"];
 
     // Check if the input value matches any of the valid options
