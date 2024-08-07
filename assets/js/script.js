@@ -1,4 +1,4 @@
-document.querySelector('#submit').addEventListener('click', function(heart) {
+document.querySelector('#submit').addEventListener('click', (heart) => {
     // Prevent form submission
     heart.preventDefault();
 
@@ -10,10 +10,10 @@ document.querySelector('#submit').addEventListener('click', function(heart) {
         "၁၅၀၀", "၅၂၈", "ကို", "ကိုကို", "မောင်", "မောင်လေး", "ဦး", "ဦးဦး", "ချစ်", "ချစ်ချစ်", "ချစ်လေး", "မင်းကို ချစ်တယ်", "မင်းကိုချစ်တယ်", "ချစ်တယ်"];
 
     // Check if the input value matches any of the valid options
-    if (validOptions.includes(inputValue.trim())) {
-        document.getElementById('result').textContent = "💝  I love You  💞";
+    if (validOptions.includes(inputValue)) {
+        document.querySelector('#result').textContent = "💝  I love You  💞";
     } else {
-        document.getElementById('result').textContent = "Don't you love me?...💔";
+        document.querySelector('#result').textContent = "Don't you love me?...💔 💔 💔 💔 💔";
     }
 
     // add reset for form
