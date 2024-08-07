@@ -16,6 +16,7 @@ document.querySelector('#submit').addEventListener('click', function(heart) {
         document.getElementById('result').textContent = "Don't you love me?...💔";
     }
 
-
+    // add reset for form
+    document.querySelector("#heartForm").reset();
 
 });
